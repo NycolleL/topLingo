@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.coluna-roxa {
+    position: fixed;
+    width: 10vh;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+/* TITULO TOPLINGO */
+.titulo {
+    color: blueviolet;
+    margin-top: 5%;
+    margin-left: 95vh;
+    font-weight: bold;
+    font-size: 70px;
+    
+}
+
+/* IMAGEM DA LUA */
+.escuro {
+    margin-top: 6%;
+    margin-right: 40%;    
+    margin-left: 60vh;
+}
+
+main {
+    width: 100vh;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-left: 70vh;
+    justify-content: center;
+} 
+
+/* CAIXA 1 - DIGITAR  O TEXTO */
+textarea {
+    background: none;
+    width: 60vw;
+    height: auto;
+    outline: none;
+    margin-top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
+/* BOTAO ROXO DE IDIOMAS */
+  .selectFrom {
+    width: 90px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  /* BOTÃO TRAZUDIR */
+  button {
+    background-color: rgba(73, 85, 85, 0.288);
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+  }
+
+  /* NOMES */
+footer {
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-weight: 500;
+  }
+  
